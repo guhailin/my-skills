@@ -1,0 +1,23 @@
+{
+  "skill_name": "video-subtitle",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "给这个视频生成字幕：/Users/e99g41y/test/bbc/President\ Donald\ Trump\ on\ state\ visit\ to\ China\ [p0nl3zcj].mp4，英文视频",
+      "expected_output": "生成 .srt 和 .txt 字幕文件，保存在视频同目录",
+      "files": ["/Users/e99g41y/test/bbc/President Donald Trump on state visit to China [p0nl3zcj].mp4"]
+    },
+    {
+      "id": 2,
+      "prompt": "帮我把 ~/Downloads/interview.mp4 转成文字稿，中文采访",
+      "expected_output": "检查环境，生成 interview.txt 和 interview.srt",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "extract subtitles from my video at /home/user/lecture.mp4, it's in English",
+      "expected_output": "Generate lecture.srt and lecture.txt in the same directory",
+      "files": []
+    }
+  ]
+}
